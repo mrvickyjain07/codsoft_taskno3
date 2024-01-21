@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to top left,blue,aqua);
+
+
+    
+}
+.inner-box{
+    width: 600px;
+    margin: auto;
+    position: relative;
+    transform: translate(-3);
+    padding: 100px 70px;
+    background-color: rgba(231, 255, 249, 0.256);
+    border-radius: 25px;
+    border: 5px solid #000000;
+}
+
+.clock {
+    display: flex;
+    font-size: 6rem;
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease-in-out;
+
+}
+
+.time {
+    margin: 0 10px;
+    opacity: 1;
+}
+
+.time:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}
+.ampm {
+    font-size: 3rem;
+    margin-top: 10px;
+    opacity: 1;
+    color: rgb(255, 255, 255);
+
+}
+.ampm:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}
